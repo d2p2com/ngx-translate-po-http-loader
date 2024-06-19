@@ -5,9 +5,8 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "npm run clean && tsc",
-    "watch": "npm run clean && tsc --watch",
-    "clean": "rm -rf ./dist",
+    "build": "npx tsc",
+    "watch": "npx tsc --watch",
     "lint": "tslint --force '*.ts'"
   },
   "files": [
@@ -29,8 +28,8 @@
   },
   "config": {},
   "peerDependencies": {
-    "@angular/core": ">=6.0.0",
     "@angular/common": ">=6.0.0",
+    "@angular/core": ">=6.0.0",
     "@ngx-translate/core": ">=10.0.0"
   },
   "dependencies": {

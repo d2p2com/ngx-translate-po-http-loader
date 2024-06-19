@@ -1,16 +1,17 @@
 # IDE
 .vscode
 .idea
+.vs
 
 # Logs and other files
 npm-debug.log*
 .DS_Store
 
 # Compiled files
-dist
+#dist
 
 # Dependency directory
 node_modules
 
 # Source maps for JS builds
-*.js.map
+#*.js.map
