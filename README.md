@@ -7,7 +7,7 @@ Load po files for use with `ngx-translate`
 
  ```
 npm i @ngx-translate/core --save
-npm i @fjnr/ngx-translate-po-http-loader --save
+npm i @d2p2com/ngx-translate-po-http-loader --save
  ```
 
 ## Usage:
@@ -15,7 +15,7 @@ npm i @fjnr/ngx-translate-po-http-loader --save
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import { TranslatePoHttpLoader } from '@fjnr/ngx-translate-po-http-loader';
+import { TranslatePoHttpLoader } from '@d2p2com/ngx-translate-po-http-loader';
 
 export function createTranslateLoader(http: HttpClient) {
 	return new TranslatePoHttpLoader(http, 'assets/i18n', '.po');
@@ -40,4 +40,4 @@ export class AppModule { }
 
 ## Special thanks
 
-This package is a fork of the [initial repository](https://github.com/biesbjerg/ngx-translate-po-http-loader) of [Kim Biesbjerg](https://github.com/biesbjerg). Special thanks to him for his effort in this project.
+This package is a fork of the [initial repository](https://github.com/biesbjerg/ngx-translate-po-http-loader) and [forked repository](https://github.com/FJNR-inc/ngx-translate-po-http-loader). Special thanks to them for his effort in this project.
