@@ -1,5 +1,5 @@
 {
-  "name": "@fjnr/ngx-translate-po-http-loader",
+  "name": "@d2p2com/ngx-translate-po-http-loader",
   "version": "3.1.3",
   "description": "Load po files for use with ngx-translate",
   "main": "dist/index.js",
@@ -15,36 +15,36 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fjnr-inc/ngx-translate-po-http-loader.git"
+    "url": "https://github.com/d2p2com/ngx-translate-po-http-loader.git"
   },
   "keywords": [],
-  "author": "Noël Rignon <noel.rignon@fjnr.ca>",
+  "author": "Doug Powers <doug@d2p2.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fjnr-inc/ngx-translate-po-http-loader/issues"
+    "url": "https://github.com/d2p2com/ngx-translate-po-http-loader/issues"
   },
-  "homepage": "https://github.com/fjnr-inc/ngx-translate-po-http-loader",
+  "homepage": "https://github.com/d2p2com/ngx-translate-po-http-loader",
   "engines": {
     "node": ">=4.1.1"
   },
   "config": {},
   "peerDependencies": {
-    "@angular/core": "^6.0.0",
-    "@angular/common": "^6.0.0",
-    "@ngx-translate/core": "^10.0.0"
+    "@angular/core": ">=6.0.0",
+    "@angular/common": ">=6.0.0",
+    "@ngx-translate/core": ">=10.0.0"
   },
   "dependencies": {
     "gettext-parser": "^4.0.3"
   },
   "devDependencies": {
-    "@angular/common": "^9.1.9",
-    "@angular/core": "^9.1.9",
-    "@angular/platform-browser": "^9.1.9",
-    "@ngx-translate/core": "12.1.2",
+    "@angular/common": ">=9.1.9",
+    "@angular/core": ">=9.1.9",
+    "@angular/platform-browser": ">=9.1.9",
+    "@ngx-translate/core": ">=12.1.2",
     "rxjs": "^6.0.0",
     "tslint": "6.1.2",
     "tslint-eslint-rules": "5.4.0",
     "typescript": "3.9.3",
-    "zone.js": "0.10.3"
+    "zone.js": ">=0.10.3"
   }
 }
