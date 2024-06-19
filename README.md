@@ -40,4 +40,4 @@ export class AppModule { }
 
 ## Special thanks
 
-This package is a fork of the [initial repository](https://github.com/biesbjerg/ngx-translate-po-http-loader) and [forked repository](https://github.com/FJNR-inc/ngx-translate-po-http-loader). Special thanks to them for his effort in this project.
+This package is a fork of the [initial repository](https://github.com/biesbjerg/ngx-translate-po-http-loader) and [forked repository](https://github.com/FJNR-inc/ngx-translate-po-http-loader). Special thanks to them for their effort in this project.
